@@ -10,5 +10,10 @@
     <string name="title_activity_authentication">Authenticate with the server</string>
     <string name="authenticate">Authenticate</string>
     <string name="choose_account">Choose an account</string>
+    <string name="entries_start">Go</string>
+    <string name="chronometer">Entry</string>
+    <string name="entries_project">Project</string>
+    <string name="entries_stop">Stop</string>
+    <string name="title_activity_entries">Entries</string>
 
 </resources>

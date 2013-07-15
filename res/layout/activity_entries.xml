@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Chronometer
+        android:id="@+id/entries_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/chronometer"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/entries_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entries_start" />
+
+</LinearLayout>

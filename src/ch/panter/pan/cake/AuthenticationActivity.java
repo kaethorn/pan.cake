@@ -32,7 +32,6 @@ public class AuthenticationActivity extends FragmentActivity
 		
 	ArrayList<Account> googleAccounts;
 	
-	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

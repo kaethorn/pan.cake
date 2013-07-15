@@ -23,14 +23,14 @@ public class MainActivity extends Activity {
         
         // Decide which Activity to start next depending on the
         // availability of an authentication token.
+        // TODO
         Intent intent;
-        if (auth_key.length() > 0) {
-        	intent = new Intent(this, AuthenticationActivity.class);
+        if (true) {
+        	intent = new Intent(this, EntryActivity.class);
         } else {
         	intent = new Intent(this, AuthenticationActivity.class);
         }
         startActivity(intent);
-
     }
 
     @Override
